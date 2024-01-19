@@ -189,7 +189,7 @@ const App = () => {
     formData.append("aboutHead3", aboutHead3);
     formData.append("aboutHead4", aboutHead4);
 
-    fetch("https://portfoliifybackend-tp8u.onrender.com", {
+    fetch("https://portfoliifybackend-tp8u.onrender.com/upload", {
       method: "POST",
       body: formData,
     })
